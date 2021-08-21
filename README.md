@@ -1,5 +1,8 @@
 # web-store
-
+## View it live
+```
+https://su314.github.io/web-store/
+```
 ## Project setup
 ```
 yarn install
