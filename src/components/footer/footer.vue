@@ -4,7 +4,7 @@
   <footer>
     <div class="row">
       <div class="col-12 text-center">
-        <h6>FooterComponent</h6>
+        <p>su3it.github.io</p>
       </div>
     </div>
   </footer>

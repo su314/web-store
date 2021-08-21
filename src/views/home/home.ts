@@ -1,11 +1,9 @@
 import { Component } from "vue-mixin-decorator";
-import CommonLayout from "@/views/pageLayout/baseLayout/commonLayout.vue";
+import CommonLayout from "@/views/pageLayout/commonLayout/commonLayout.vue";
 import CommonViewMixin from "@/mixin/common.view.mixin";
 @Component({
-    components:{
-        CommonLayout
-    }
+  components: {
+    CommonLayout,
+  },
 })
-export default class Home extends CommonViewMixin{
-
-}
+export default class Home extends CommonViewMixin {}
