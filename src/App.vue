@@ -2,7 +2,7 @@
 
 <template>
   <div id="app" class="app fade-in">
-    <main id="wholeView">
+    <main id="mainView">
       <router-view />
     </main>
   </div>
