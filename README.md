@@ -1,7 +1,8 @@
 # web-store
 ## View it live
 ```
-https://su314.github.io/web-store/
+[WebStore](https://su314.github.io/web-store/ "WebStore's Homepage")
+
 ```
 ## Project setup
 ```
