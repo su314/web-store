@@ -1,9 +1,9 @@
 <script lang="ts" src="./commonLayout.ts"></script>
 <style lang="scss" scoped src="./commonLayout.scss"></style>
 <template>
-  <div>
+  <div class="container">
     <common-header />
-    <main>
+    <main class="row">
       <slot name="mainarea"></slot>
     </main>
     <common-footer />

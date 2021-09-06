@@ -1,4 +1,8 @@
 import { Component } from "vue-mixin-decorator";
-
-@Component
+import NavigationBar from "@/components/navigation/navigation.vue";
+@Component({
+    components:{
+        NavigationBar
+    }
+})
 export default class Footer {}

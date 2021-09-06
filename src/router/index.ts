@@ -7,7 +7,31 @@ const routes: Array<RouteConfig> = [
     path: "/",
     name: "Home",
     component: () =>
-      import(/* webpackChunkName: "home" */ "../views/home/home.vue"),
+      import(/* webpackChunkName: "home" */ "../views/pages/home/home.vue"),
+  },
+  {
+    path: "/products",
+    name: "products",
+    component: () =>
+      import(/* webpackChunkName: "home" */ "../views/pages/products/products.vue"),
+  },
+  {
+    path: "/cart",
+    name: "Cart",
+    component: () =>
+      import(/* webpackChunkName: "home" */ "../views/pages/cart/cart.vue"),
+  },
+  {
+    path: "/orders",
+    name: "Orders",
+    component: () =>
+      import(/* webpackChunkName: "home" */ "../views/pages/orders/orders.vue"),
+  },
+  {
+    path: "/profile",
+    name: "Profile",
+    component: () =>
+      import(/* webpackChunkName: "home" */ "../views/pages/profile/profile.vue"),
   },
 ];
 
